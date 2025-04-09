@@ -1,0 +1,10 @@
+llama-index
+llama-index-llms-litellm
+llama-index-llms-azure-openai
+llama-index-llms-openai
+llama-index-embeddings-azure-openai
+llama-index-embeddings-azure-openai
+sentence-transformers
+PyPDF2
+pdf2image
+pytesseract
