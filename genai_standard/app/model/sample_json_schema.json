@@ -1,0 +1,21 @@
+{
+    "type": "json_schema", 
+    "json_schema": {
+        "name": "MachineLearningTransformersExplanation",
+        "schema": {
+            "type": "object",
+            "properties": {
+                "definition": {"type": "string"},
+                "key_components": {
+                    "type": "array",
+                    "items": {"type": "string"}
+                },
+                "examples": {
+                    "type": "array",
+                    "items": {"type": "string"}
+                }
+            },
+            "required": ["definition", "key_components", "examples"]
+        }
+    }
+}
